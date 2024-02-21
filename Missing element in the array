@@ -1,0 +1,22 @@
+//MISSING ELEMENT IN ARRAY
+#include<stdio.h>
+void main()
+{
+int n,i,arr[20],b,c;
+printf("enter limit");
+scanf("%d",&n);
+printf("enter elements");
+for(i=0;i<n;i++)
+{
+scanf("%d",&arr[i]);
+}
+c=arr[0];
+for(i=0;i<n;i++)
+{
+ if(arr[i]!=c+i)
+ {
+ b=c+i;
+ }
+}
+printf("%d",b);
+}
